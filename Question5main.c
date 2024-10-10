@@ -9,7 +9,7 @@ int main() {
   scanf("%d", &customerId);
 
   printf("Enter customer name: ");
-  scanf("%s", &customerName);
+  scanf("%s", &customerName); // %s is used to avoid error
 
   printf("Enter units consumed: ");
   scanf("%d", &unitConsumed);
@@ -41,7 +41,7 @@ int main() {
   
   printf("\nElectricity Bill\n");
   printf("Customer ID: %d\n", customerId);
-  printf("Customer Name: %s\n", customerName);
+  printf("Customer Name: %s\n", customerName); // %s is used to avoid error
   printf("Units Consumed: %d\n", unitConsumed);
   printf("Amount Charges Rs %.2f per unit:\n ",AmountCharges);
   printf("%.0f\n",Amount);
